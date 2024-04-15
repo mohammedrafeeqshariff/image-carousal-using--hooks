@@ -1,0 +1,89 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    margin: 0%;
+    padding: 0%;
+  
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-container{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .image-container{
+    width: 50vw;
+    height: 90vh;
+    margin: auto;
+  
+  }
+  
+  .image{
+    height: 90vh;
+    width: 50vw;
+    position: relative;
+  }
+  
+  .image img{
+    height: 90vh;
+    width: 50vw;
+  }
+  
+  .title-box{
+    position: absolute;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.747);
+    z-index: 1;
+    top: 10%;
+    left: 43%;
+    font-size: xx-large;
+    border-radius: 5%;
+  }
+  
+  .subtitle-box{
+    position: absolute;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.616);
+    z-index: 1;
+    bottom: 10%;
+    left: 37%;
+    font-size: xx-large;
+    border-radius: 30px;
+  }
+  
+  .arrow{
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(129, 126, 126, 0.495);
+    color: white;
+    height: 80vh;
+    z-index: 1;
+  }
+  
+  #backwardIcon{
+    margin-left:10.5vw;
+  }
+  
+  #forwardIcon{
+    margin-left:57vw;
+  }
+  
